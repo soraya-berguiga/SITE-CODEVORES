@@ -1,0 +1,70 @@
+
+body{
+
+font-family: 'Open Sans', sans-serif;}
+
+
+img{
+	padding: 10px;
+	border:1px solid brown;
+	box-shadow: 0px 0px 17px;
+
+}
+
+.pm{
+	width: :150px;
+	border:1px solid brown;
+	text-align: justify;
+	padding: 12px;
+	margin-bottom: 12px;
+}
+
+h1{
+	position: center;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+section{
+	display: flex;
+	justify-content: space-around;
+	margin: 50px
+}
+
+div{
+	width: 35%
+	padding:50px;
+}
+
+#entre{
+	width: 240%;
+}
+
+.entre{
+	position float: right;
+}
+
+div#content div.rightbox{
+background-color: red;
+}
+
+div#content div.leftbox{
+background-color: blue;
+}
+
+.main{
+	display: flex;
+	justify-content: space-around;
+}
+
+#bio{
+	float right:
+	padding:30px;
+	margin: 30px;
+}
+
+#
