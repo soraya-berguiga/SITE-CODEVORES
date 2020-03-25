@@ -52,19 +52,30 @@ table {
 /* CSS MENU DE NAVIGATION */
 
 body{
-font-family: 'Open Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+background-image: url(../img/fond2.png);
 }
+
 .navbar-brand img{
   max-height: 40px;
 }
 
+.navbar{
+	background-color: #e7caa8 !important;
+}
+
+/* ICONE MENU DE NAVIGATION */
+.fa-globe{
+	color: #b50e0e !important;
+	margin-left: 26px;
+}
 
 .center{
   margin-left: auto;
   margin-right: auto;
 }
 
-
+/* Animation bouton menu navigation */
 
 .hvr-grow {
   display: inline-block;
@@ -80,7 +91,7 @@ font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	font-weight: bold;
 	border-radius: 20px;
-	width: 174px;
+	width: 175px;
 	text-align: center;
 
 }
@@ -96,46 +107,28 @@ font-family: 'Open Sans', sans-serif;
 	background-color: #A00101 !important;
 }
 
-.navbar{
-	background-color: #e7caa8 !important;
-}
-/***************************** HEADER ********************/
+
+/***************************** HEADER  IMAGE********************/
 header .row{
-	background-image: url("../img/b.jpg");
-	min-height: 100vh;
+	background-image: url("../img/p.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	min-height: 100vh;
+	display: flex;
 	align-items: center;
-	margin-top: 75px;
+	clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 
 }
 
-header .effect-image{
-	/* background-color: rgba(0, 0, 0, 0.5);
-	min-height: 70vh;
-	 min-width: 51%; */
-	/* display: flex;
-	align-items:center;
-	justify-content: center; */
-
-}
-
+/* BOUTONS IMAGE HEADER */
 .left{
-	display: inline-flex;
-	border: 1px solid black;
-	margin-left: 0px;
-
-}
-.fa-globe{
-	color: brown !important;
-	margin-left: 26px;
+	display: flex;
+	justify-content: flex-start;
 }
 
 .right{
-
-	display: inline-flex;
-	border: 1px solid black;
-	margin-right: 0px;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .btn-primary{
@@ -143,5 +136,101 @@ header .effect-image{
 	font-weight: bold;
 	font-size: 20px;
 	border-radius: 20px;
+	background-attachment: fixed !important;
+}
 
+/***- TEXTE MAIN APRES IMAGE HEADER  -****/
+
+.texte-index{
+	line-height: 3em;
+	margin-top: 70px;
+	color: #721121;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #faf1e8;
+	margin-right:0px;
+	margin-left: 0px
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.titre-index{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline overline #E57569;
+	font-size: 1.2em;
+}
+.block{
+	margin-right: 0px !important;
+}
+
+
+/**************** PROPRIETES POUR LE SITE**************** */
+.bold{
+	font-weight: bold;
+}
+
+.center{
+	text-align: center;
+}
+
+.brown-dark{
+	color:#764133;
+}
+
+.brown-text{
+	color: #764133;
+}
+
+/***************************ICONE INDEX ******************/
+
+
+/* TEXTE DROITE DE L'ICONE */
+.left2{
+	line-height: normal;
+	text-align: center;
+	text-align: justify;
+	color: #721121;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+	margin-top: 30px
+}
+
+/* ICONES GAUCHE DU TEXTE */
+
+.left-index{
+	font-size: 170px;
+	color: #9c0d38 !important;
+}
+
+.right2{
+	margin-top: 100px;
+}
+
+.block{
+	background-color:#faf1e8;
+	margin-top: 5%;
+
+}
+
+.ul-text{
+	margin-left: 5%;
+	line-height: 2em;
+	text-align: center;
+}
+
+.titre-puce{
+	font-size: 21px;
+	text-transform: uppercase;
+	margin-bottom: 21px;
+	margin-top: 5px;
+	text-align: center;
+	text-decoration: underline overline #E57569;
+	/* text-decoration: underline overline #E57569; */
+
+}
+
+.t-p{
+	margin-top: 50px
 }
