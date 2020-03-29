@@ -109,7 +109,7 @@ background-image: url(../img/fond2.png);
 
 
 /***************************** HEADER  IMAGE********************/
-header .row{
+header .head1{
 	background-image: url("../img/p.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -321,3 +321,11 @@ header .row{
 
 
 /******* PAGE ESPACE RECRUTEUR *****/
+
+/**************** IMAGE HEADER*************** */
+.head2{
+	min-height: 70vh;
+	background-image: url("../img/fond-2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
