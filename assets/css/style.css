@@ -319,6 +319,12 @@ header .head1{
 
 }
 
+.copy{
+	margin-top: 4%;
+	margin-right: 8%;
+	font-size: 17px;
+
+}
 
 /******* PAGE ESPACE RECRUTEUR *****/
 
@@ -329,3 +335,107 @@ header .head1{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/* POUR CACHER BARRE GRISE */
+HTML { overflow-x :hidden ; }
+
+/* MAIN PRINCIPAL */
+
+/* TITRE MAIN */
+.section-title{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 5% 5%
+}
+
+.sections{
+	margin-top: 7%;
+	margin-bottom: 9%;
+}
+/* LIGNE EN DESOUS DU TRITRE EN ROUGE */
+.line{
+	width: 160px;
+	background: #bd1111;
+	height: 4px;
+	margin: auto;
+	margin-top: 10px;
+}
+/* LIGNE EN DESOUS DU TRITRE EN VERT */
+
+.line span{
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: green;
+	margin: auto;
+	position: relative;
+	margin-bottom: 0.5px
+}
+
+
+/* DIV PRINCIPALE TEXTE + IMAGE */
+.block-main-recru{
+	background-color: #faf1e8;
+	margin-top: 7%;
+	margin-bottom: 13%;
+
+}
+/* DIV PRINCIPALE */
+.section-header p{
+margin: 15px auto;
+line-height: 1.5;
+font-size: 20px;
+font-weight: bold;
+}
+
+/* BLOC EN DESSOUS  */
+
+/* TEXTE + IMAGE EN DESSOUS DU TITRE  */
+.about-info{
+	line-height: 3em;
+	margin-top: 70px;
+	color: #721121;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #faf1e8;
+	margin-right:0px;
+	margin-left: 0px
+	border: 1px solid black;
+	margin-bottom: 30px;
+
+}
+
+/* TITRE EN DESSOUS H3*/
+.title-info{
+	margin-bottom: 20px;
+	margin-top: -12%;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline overline #E57569;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+/* IMAGE A DROITE DU TEXTE */
+
+.mainn-img img{
+	width: 100%;
+}
+
+/* TITRE H4  */
+.title-info2{
+	font-size: 20px;
+	margin-bottom: 5%;
+	margin-top: -3%;
+}
+
+/* UL EN DESSOUS DU TITRE H4 */
+.ul-recru{
+	line-height: 2.8;
+	margin-top: -3%;
+}
+
+
+
+/* CSS PAGE PROFESIONNEL */
