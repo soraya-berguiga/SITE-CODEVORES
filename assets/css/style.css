@@ -120,6 +120,8 @@ header .head1{
 
 }
 
+
+
 /* BOUTONS IMAGE HEADER */
 .left{
 	display: flex;
@@ -439,3 +441,44 @@ font-weight: bold;
 
 
 /* CSS PAGE PROFESIONNEL */
+
+/* HEADER IMAGE BACKGROUND */
+header .espace{
+	background-image: url("../img/head-3.png" );
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+}
+
+.right{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 13px;
+
+}
+
+/* TITRE INTERIEUR IMAGE HEADER */
+.title-espace-pro{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+/* TITRE HEADER + ICONE */
+.block-pro{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: -11%;
+	text-align: center;
+}
+
+
+/* TAILLE DE L'ICONE HEADER*/
+.size-ico{
+	font-size: 21px;
+	color:#f6c552;
+	margin-top: 20%;
+}
