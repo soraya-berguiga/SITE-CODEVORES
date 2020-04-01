@@ -331,12 +331,7 @@ header .head1{
 /******* PAGE ESPACE RECRUTEUR *****/
 
 /**************** IMAGE HEADER*************** */
-.head2{
-	min-height: 70vh;
-	background-image: url("../img/fond-2.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+
 
 /* POUR CACHER BARRE GRISE */
 HTML { overflow-x :hidden ; }
@@ -440,7 +435,7 @@ font-weight: bold;
 
 
 
-/* CSS PAGE PROFESIONNEL */
+/* CSS ESPACE PROFESIONNEL */
 
 /* HEADER IMAGE BACKGROUND */
 header .espace{
@@ -481,4 +476,46 @@ header .espace{
 	font-size: 21px;
 	color:#f6c552;
 	margin-top: 20%;
+}
+
+/* CSS PAGE PROFESSIONNEL */
+
+/* IMAGE HEADER */
+
+header .head-pro{
+	min-height: 72vh;
+	background-image: url("../img/ji.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* TITRE HEADER PAGE PRO */
+.title-header-pro{
+	display: flex;
+	text-align: center;
+	margin-top: 20%;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #a00101;
+	line-height: inherit;
+	line-height: 1.3em
+
+
+}
+
+
+.card-title{
+	font-size: 20px
+}
+
+.card{
+margin-top: 10%;
+width: 50%;
+}
+.card-img-top{
+	width: 30%;
+}
+
+.list-group{
+	font-size: 19px
 }

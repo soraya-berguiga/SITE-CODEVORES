@@ -11,8 +11,9 @@
       <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 
       <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/externe/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/externe/bootstrap.min.css">
+
 
 
 
@@ -20,8 +21,10 @@
       <link rel="stylesheet" href="assets/css/externe/fontawesome.min.css">
       <script src="https://kit.fontawesome.com/dfd25684a2.js" crossorigin="anonymous"></script>
 
+
+
       <!-- POUR INSRER UN ICONE EN TËTE -->
-      <link rel="shortcut icon" href="assets/img/icon.png">
+      <!-- <link rel="shortcut icon" href="assets/img/icon.png"> -->
 
       <!-- LIEN CSS -->
       <link rel="stylesheet" href="assets/css/style.css">
@@ -30,12 +33,12 @@
 
 
 
-    <body id="haut">
+    <body>
 
 
       <!-**************NAVBAR********************************* -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
         <a class="navbar-brand" href="#haut">
           <i class="fas fa-globe fa-2x"></i>
@@ -55,10 +58,10 @@
                 <a class="nav-link  btn-lg hvr-grow brown" href="recruteur.html">Recruteur</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link  btn-lg hvr-grow brown" href="pro.html">Professionnel</a>
+                <a class="nav-link  btn-lg hvr-grow brown" href="espace-pro.html">Professionnel</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link  btn-lg hvr-grow brown" href="p-pro.html">Page du professionnel</a>
+                <a class="nav-link  btn-lg hvr-grow brown" href="page-pro.html">Page du professionnel</a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link  btn-lg  hvr-grow brown" href="comunaute.html">Communauté</a>
@@ -74,44 +77,99 @@
               </li>
             </ul>
           </div>
-  </nav>
-
-
-
-
-<!-- ---------------------HEADER IMAGE------------------------------------- -->
+      </nav>
 
 
 
 
 
 
+<!-- --------------------HEADER IMAGE------------ -->
+
+      <!-- <header>
+        <div class="row head-pro">
+          <h1 class="title-page-pro align-items-center">NOS PROFFESIONNELS DE LA TECH</h1>
+        </div>
+      </header> -->
+
+      <header class="container-fluid">
+        <div class="row head-pro d-flex justify-content-center">
+          <div class="col-12 col-md-5 title-header-pro center bold">
+            <h1 class="k d-flex justify-content-center">NOUS SÉLECTIONNONS AVEC SOIN NOS PROFESIONNELS</h1>
+          </div>
+        </div>
+      </header>
+
+
+      <!-- -------------------MAIN TITRE -------- -->
+
+      <section class="sections about ">
+        <div class="container">
+          <div class="section-header">
+            <div class="row">
+                <div class="center col-12 col-sm-6 bn">
+                  <h2 class="section-title center">Nos professionnels</h2>
+                  <div class="line"> <span></span> </div>
+                </div>
+              </div>
+
+          <div class="row">
+            <div class="col-12 col-sm-6 center bl">
+              <p class="center">CV MIRABELLE FIELD</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
 
 
 
+  <!-- -------------------- MAIN CV ------------ -->
 
+  <div class="container">
 
+<div class="row">
 
+      <div class="card center col-12 col-md-6">
+        <img src="assets/img/picture-cv.jpeg" class="card-img-top center" alt="...">
+        <div class="card-body">
+          <h5 class="card-title bold mb-3 mt-5">FORMATIONS</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">2019-Développeuse Web centre de formation Descodeuses</li>
+            <li class="list-group-item">2016-BTS Manager des Unités Commerciales</li>
+          </ul>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <h5 class="card-title bold">COMPÉTENCES</h5>
 
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
 
-
-
-
+    </div>
 
 
 <!-- -------------------FOOTER ----------------------- -->
 
-<footer class="foot-principal">
+
+<!-- <footer class="foot-principal">
     <div class="haut-foot center">
       <div class="container">
         <div class="row center">
         <div class="col-md-6 titre-h">
-          <p class="p-icone bold">Retrouvez nous sur nos réseaux sociaux</p>
+          <p class="p-icone bold center">Retrouvez nous sur nos réseaux sociaux</p>
         </div>
-        <div class="col-md-6 ico">
+        <div class="col-md-6 ico center">
           <a  href="#"> <i class="fab fa-facebook fa-2x mx-3 text-primary b"></i></a>
           <a href="#"> <i class="fab fa-google-plus fa-2x mx-3 text-danger b"></i></a>
           <a href="#"> <i class="fab fa-twitter fa-2x mx-3 text-info b"></i></a>
@@ -120,7 +178,6 @@
       </div>
     </div>
   </div>
-
 
   <div class="container">
     <div class="row justify-content-center">
@@ -148,8 +205,8 @@
       </div>
 
       <div class="col-sm-11 col-md-3 liens-contact center">
-        <h6 class="text-uppercase font-weight-bold titre-contact">CONTACT</h6>
-          <div class="icon-contact">
+        <h6 class="text-uppercase font-weight-bold titre-contact center">CONTACT</h6>
+          <div class="icon-contact center">
              <p class="">
                <i class="fas fa-home mr-3 "></i> 8 rue Dauphine 75006 PARIS</p>
              <p class="">
@@ -161,9 +218,8 @@
           </div>
       </div>
     </div>
-    <p class="center copy">&copy; Copyright-2020 by Codevores</p>
   </div>
-</footer>
+</footer> -->
 
 
 
@@ -178,9 +234,23 @@
 
 
 
-      <!-- JS -->
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
-  </html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+
+</body>
