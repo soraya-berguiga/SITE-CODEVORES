@@ -504,7 +504,7 @@ header .head-pro{
 
 /* DIV CARD IMAGE + TEXTE */
 
-.card{
+.card-main{
 margin-top: 10%;
 margin-bottom: 18%;
 width: 80% !important;
@@ -533,6 +533,45 @@ color: #a00101;
 
 /* PAGE BOUTTON CONTACT */
 
+header .head-button{
+	min-height: 72vh;
+	background-image: url("../img/blibli.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* BOUTON CONTACT SIZE */
+
 .button-contact{
 	margin-right: 7%
+}
+
+/* MARGES HAUT CARD CONTACT */
+.size{
+	margin-top: 10%
+}
+
+/* MARGES HAUT ENTRES BALISES */
+
+.size-form{
+	margin-top: -5%
+}
+
+
+/******** PAGE COMMUNAUTE ********/
+
+
+/* IMAGE HEADER */
+
+header .head-communaute{
+	min-height: 72vh;
+	background-image: url("../img/cube.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* TITRE HEADER IMAGE */
+.color{
+	margin-top: 5%;
+	color:#8b1515;
 }
