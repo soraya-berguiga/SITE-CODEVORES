@@ -241,6 +241,7 @@ header .head1{
 	margin-top: 50px
 }
 
+
 /**************** FOOTER ********************/
 
 /*** BALISE  FOOTER PRINCIPALE ***/
@@ -248,6 +249,7 @@ header .head1{
 .foot-principal{
 	background-color: #b50e0e;
 	padding-bottom: 5%; color: white;
+	margin-bottom: 0%;
 }
 
 /* DIV HAUT FOOTER COULEUR BEIGE */
@@ -348,7 +350,6 @@ HTML { overflow-x :hidden ; }
 
 .sections{
 	margin-top: 7%;
-	margin-bottom: 9%;
 }
 /* LIGNE EN DESOUS DU TRITRE EN ROUGE */
 .line{
@@ -478,7 +479,7 @@ header .espace{
 	margin-top: 20%;
 }
 
-/* CSS PAGE PROFESSIONNEL */
+/******** CSS PAGE PROFESSIONNEL ************/
 
 /* IMAGE HEADER */
 
@@ -499,23 +500,39 @@ header .head-pro{
 	color: #a00101;
 	line-height: inherit;
 	line-height: 1.3em
-
-
 }
 
+/* DIV CARD IMAGE + TEXTE */
 
+.card{
+margin-top: 10%;
+margin-bottom: 18%;
+width: 80% !important;
+color: #a00101;
+}
+
+/* TITRE CARD FORMATIONS + COMPETENCES */
 .card-title{
 	font-size: 20px
 }
 
-.card{
-margin-top: 10%;
-width: 50%;
-}
+/* IMAGE CARD */
 .card-img-top{
 	width: 30%;
+	margin-top: 10%;
 }
 
+/* INTERIEUR CARDE DETAILS DES COMPETENCES */
 .list-group{
 	font-size: 19px
+}
+
+.ico-stars{
+	display: row;
+}
+
+/* PAGE BOUTTON CONTACT */
+
+.button-contact{
+	margin-right: 7%
 }
