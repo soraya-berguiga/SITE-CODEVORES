@@ -573,5 +573,18 @@ header .head-communaute{
 /* TITRE HEADER IMAGE */
 .color{
 	margin-top: 5%;
-	color:#8b1515;
+	color:white ;#8b1515;
+}
+
+
+.block-card{
+	margin-top: 7%;
+	margin-bottom: 10%;
+	background-color: white; #faf1e8;
+	color: #8b8b8b
+}
+
+.card-img-communaute{
+	width: 40%;
+
 }
