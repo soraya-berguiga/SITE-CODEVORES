@@ -56,6 +56,7 @@ font-family: 'Rubik', sans-serif;
 background-image: url(../img/fond2.png);
 }
 
+
 .navbar-brand img{
   max-height: 40px;
 }
@@ -323,6 +324,7 @@ header .head1{
 
 }
 
+/* COPYRIGHT */
 .copy{
 	margin-top: 4%;
 	margin-right: 8%;
@@ -330,7 +332,14 @@ header .head1{
 
 }
 
-/******* PAGE ESPACE RECRUTEUR *****/
+/******** BONTON THEME JS***** */
+.theme-nuit {
+  background-color: #482728 !important;
+  color: white !important;
+}
+
+
+/************ PAGE ESPACE RECRUTEUR ***********/
 
 /**************** IMAGE HEADER*************** */
 
@@ -436,7 +445,7 @@ font-weight: bold;
 
 
 
-/* CSS ESPACE PROFESIONNEL */
+/******************* CSS ESPACE PROFESIONNEL ************/
 
 /* HEADER IMAGE BACKGROUND */
 header .espace{
@@ -558,7 +567,7 @@ header .head-button{
 }
 
 
-/******** PAGE COMMUNAUTE ********/
+/****************** PAGE COMMUNAUTE ********/
 
 
 /* IMAGE HEADER */
@@ -588,4 +597,134 @@ header .head-communaute{
 .card-img-communaute{
 	width: 40%;
 
+}
+
+
+/************* PAGE ACTUALITE ***************/
+
+
+/************* SLADE HEADER *********/
+
+/* DIV PRINCIPALE CAROUSEL */
+#carouselExemple{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 13%;
+	margin-bottom: 12%
+}
+
+/* IMAGE CAROUSEL */
+.carousel-item img {
+	width: 100%;
+	height: auto;
+}
+
+/* HEADER IMAGE */
+header .head-actu{
+	min-height: 72vh;
+	background-image: url("../img/head-actu.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* TITRE EN DESSOUS DU HEADER IMAGE */
+.marges{
+	margin-top: 8px
+}
+
+
+/* TEXTE SLIDE */
+
+.text-slide{
+	color: black;
+	background-color: white;
+	font-size: 21px;
+	line-height: 1.5;
+	font-family: 'Lobster', cursive;
+}
+
+
+/******************** PAGE CONTACT**********************/
+
+/* HEADER IMAGE */
+header .head-contact{
+	min-height: 65vh;
+	background-image: url("../img/hhh.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 5%;
+}
+
+
+/* TITRE EN DESSOUS HEADER */
+
+.marges-contact{
+	margin-top: 1px
+}
+
+/* DIV CARD FORMULAIRE DE CONTACT */
+
+.block-contact{
+width: 90% !important;
+height: auto;
+margin-bottom: 5%;
+margin-top: 5%
+}
+
+/* PARAGRAPHE CHAMPS OBLIGATOIRE****** */
+.marge-champs{
+	margin-left: 7% !important;
+	margin-top: 4%;
+}
+
+
+/***************************** PAGE FAQ***************** **/
+
+/* DIV PRINCIPAL CARD */
+.card-faq{
+	width: 80% !important;
+  margin-top: 6%;
+	margin-bottom: 10%;
+	border-color: #a00101;
+}
+
+/*** DIV CARD INTERIEUR QUESTIONS***/
+.card-inside{
+	width: 80%;
+	margin-top: 5%;
+	margin-bottom: 20%;
+
+}
+
+/* TITLE FOIRE AUX QUESTIONS HAUT */
+
+.title-faq{
+	font-size: 18px
+}
+
+/* UL LI CLASSE  */
+.style-faq {
+line-height: 1.5;
+}
+
+
+/**************** PAGE CONNEXION *******************/
+
+ /* DIV PRINCIPAL CARD CONNEXION  */
+ .card-connexion{
+	margin-top: 18%;
+	margin-bottom: 15%;
+	width: 90% !important;
+}
+
+/* TITRE CONNEXION */
+.title-connexion{
+font-size: 25px
+}
+
+
+/* DIV EN DESSOUS TITRE CONNEXION */
+.card-c{
+	margin-bottom: 5%
 }
