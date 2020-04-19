@@ -668,7 +668,7 @@ header .head-contact{
 .block-contact{
 width: 90% !important;
 height: auto;
-margin-bottom: 5%;
+margin-bottom: 10%;
 margin-top: 5%
 }
 
@@ -726,5 +726,5 @@ font-size: 25px
 
 /* DIV EN DESSOUS TITRE CONNEXION */
 .card-c{
-	margin-bottom: 5%
+	margin-bottom: 5%;
 }
