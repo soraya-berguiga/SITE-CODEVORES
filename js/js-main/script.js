@@ -1,3 +1,7 @@
+
+//JS PAGE FORMULAIRE //
+
+ 
  document.forms["inscription"].addEventListener("submit", function(e) {
    var erreur;
    var inputs = this.getElementsByTagName("input");
@@ -21,3 +25,16 @@
       }
 
  });
+
+
+
+
+// JS PAGE INDEX //
+
+
+document.querySelector('.bouton-theme').addEventListener('click', function() {
+document.querySelector('footer').classList.add('theme-nuit');
+});
+
+
+// toggle
